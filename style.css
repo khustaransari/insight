@@ -1,0 +1,109 @@
+.l
+{
+    width: 225px;
+    margin-top: 8px;
+}
+.ist
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25.00vh;
+    width: 27.5812vw;
+    margin-top: 50px;
+}
+.ist1
+{
+    border: 1px solid black;
+    border-radius: 18px;
+    height: 25.00vh;
+    width: 27.5812vw;
+    margin-top: 0px;
+}
+  .crousel-item
+  {
+      position: relative;
+      z-index: -1;
+  }
+  .dot
+  {
+      display: inline-block;
+      text-align: center;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      color: white;
+      opacity: .6;
+  }
+  .do
+  {
+      border: 1px solid grey;
+      position: absolute;
+  }
+  .two
+  {
+      position:absolute;
+      color: #fffefe;
+      opacity:1;
+      bottom: 8px;
+      left: 30px;
+      font-size: 42px;
+  }
+
+  .carousel {
+padding:0px 20px ;}
+.carousel .cell2
+{
+    margin: 20px;
+    width: 15.5rem; height: 8.4rem;
+    border-radius: 10px; 
+}
+.carousel-cell{
+    margin: 20px;
+    width: 19.5rem; height: 21.29rem;
+    border-radius: 10px;
+    counter-increment: carousel-cell;
+    }
+ul
+{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+    
+}
+.read {
+    color: #004fff;
+    font-size: 20px;
+    font-weight: bold;
+    left: 16px;
+}
+.img-hover-zoom {
+    overflow: hidden;
+    height:50%;
+  }
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .Grammar a:hover
+  {
+      color: #004ffe;
+  }
+  
+  .icon
+  {
+      display: inline-block;
+      font-size:40px;
+      float: right;
+      margin-top: -58px;
+  }
+
+ 
